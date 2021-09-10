@@ -1,0 +1,9 @@
+package com.edmundo.dsvendas.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.edmundo.dsvendas.entities.Seller;
+
+public interface SellerRepository extends JpaRepository<Seller, Long>{
+
+}
